@@ -4,9 +4,12 @@
 https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/introduction/
 
 ## Testing the gRPC-Gateway
-Now we can start the server:
+
+`cd gateway`
 
 `$  go mod tidy && go mod vendor`
+
+Now we can start the server:
 
 `$ go run main.go`
 
